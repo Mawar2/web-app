@@ -1,7 +1,9 @@
 ● What is the theme you’ll be using for project 2?
+ The theme of my project is "Bright side"
  
 ● How did you incorporate your theme within your project?
-  
+   I plan on incoprating my theme into the project by given my bot a list of key words and map those key words to really positive automated responses!
+   
 ● What are at least 5 issues you encountered with your project? How did you fix them?
 1. Had a challenging time understanding React Components.
 2. Took time understanding the differences between server side and client side.
