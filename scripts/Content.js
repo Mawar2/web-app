@@ -1,21 +1,8 @@
 import * as React from 'react';
 import { Socket } from './Socket';
-import { MyFavoriteFoodHeader } from './MyFavoriteFoodHeader';
-import { MyFavoriteFoodList } from './MyFavoriteFoodList';
-
-
+import { Web_layout } from './Layout';
 import { Button } from './Button';
 
-// export class Content extends React.Component {
-//     render(){
-//         return(
-//             <div>
-//                 <MyFavoriteFoodHeader />
-//             </div>
-            
-//             );
-//     }
-// }
 
 export class Content extends React.Component {
     constructor(props) {
@@ -42,10 +29,10 @@ export class Content extends React.Component {
                 <ul>{chat_messages}</ul>
                 <Button />
               <div>
-                <MyFavoriteFoodHeader />
+                <Web_layout />
               </div>
             </div>
         );
     }
 }
-
+    
